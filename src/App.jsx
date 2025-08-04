@@ -6,7 +6,7 @@ import  Volunteer from "./pages/Volunteer";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ngo-website">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
